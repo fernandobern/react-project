@@ -10,7 +10,6 @@ function AppRoutes() {
     return(
         <BrowserRouter>
             <Routes>
-
                 <Route element={<CleanLayout/>}>
                     <Route path="/" element={<Login/>} />
                 </Route>
@@ -26,7 +25,6 @@ function AppRoutes() {
                 <Route element={<DefaultLayout/>}>
                     <Route path="/dashboard" element={<Dashboard/>} />
                 </Route>
-
                 <Route element={<DefaultLayout/>}>
                 <Route path="*" element={<NotFound />} /> {/* Rota "catch-all" para Not Found */}
                 </Route>
