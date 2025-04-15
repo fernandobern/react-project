@@ -11,8 +11,8 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
 
-                <Route element={<DefaultLayout/>}>
-                    <Route path="/" element={<Home/>} />
+                <Route element={<CleanLayout/>}>
+                    <Route path="/" element={<Login/>} />
                 </Route>
 
                 <Route element={<DefaultLayout/>}>
