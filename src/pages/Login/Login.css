@@ -1,0 +1,51 @@
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 20%;
+    padding: 50px;
+  }
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .card-login input {
+    margin-left: -0.2rem;
+  }
+  
+  .card-login h3 {
+    text-align: center;
+  }
+  .cadastro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .cadastro-card p {
+    color: #494949;
+  }
+
+  .card-50 {
+    flex: 1 1 45%; /* ocupa ~50% mas flexível */
+    min-width: 300px;
+  }
+  
+  .card-100 {
+    flex: 1 1 100%;
+  }
+  

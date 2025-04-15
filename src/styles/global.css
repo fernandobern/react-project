@@ -1,0 +1,102 @@
+/* ---------- Tipografia Global ---------- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Texto */
+p {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #ccc;
+}
+
+/* Links */
+a {
+  color: #1e90ff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #63b3ed;
+}
+
+/* Botões */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #0666c5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+  height: 35px;
+}
+
+button:hover {
+  background-color: #1c86ee;
+}
+
+label {
+  text-align: left;
+  width: 100%;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1rem solid #292929;
+  margin: 1rem;
+}
+
+/*Estilo de cards e box dos cards*/
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+
+.card-full {
+  width: 100%;
+}

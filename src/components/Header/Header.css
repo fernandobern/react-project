@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    /*background-color: #111;*/
+    color: white;
+    border-bottom: 1px solid #333;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.2s;
+  }
+  
+  .menu a:hover {
+    color: #1e90ff;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .sair {
+    color:#C70039;
+    transition: 0.5s all;
+  }
+
+  .header .sair:hover {
+    position: relative;
+    color:#f30246;
+    font-size: large;
+  }

@@ -1,0 +1,44 @@
+.cardfull {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    height: fit-content;
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: white;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 10px rgba(173, 173, 173, 0.171);
+  }
+
+  .cardfull-content { 
+    display: flex;
+    flex-direction: row;
+    padding: 1 3rem;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin: 0 auto;
+    font-size: 1rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 1rem;
+  }
+  
+  .card-50 {
+    flex: 1 1 45%; /* ocupa ~50% mas flexível */
+    min-width: 300px;
+  }
+  
+  .card-100 {
+    width: 100%;
+  }

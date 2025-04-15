@@ -1,0 +1,33 @@
+/*Inputs*/
+
+input {
+    background-color: #000;
+    color: #ccc;
+    height: 35px;
+    border: 1px solid #cccc;
+    border-radius: 0.3rem;
+    min-width: 200px;
+    width: 100%;
+    font-size: x-large;
+    margin: 10px;
+    transition: 500ms all;
+  }
+  
+  input:focus {
+    background-color: #292929;
+    height: 40px;
+    border: 1px solid #5898f8;
+    
+  }
+  
+  input:hover {
+    background-color: #292929;
+    height: 40px;
+    border: 1px solid #5898f8;
+    
+  }
+
+  input:placeholder-shown {
+    font-size: 1rem;
+  }
+  
